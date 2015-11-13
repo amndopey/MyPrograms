@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CalendarTracking {
+namespace MyPrograms {
     
     
     public partial class Register {

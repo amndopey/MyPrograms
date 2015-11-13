@@ -10,10 +10,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography;
 using System.Text;
 using System.Data.Entity;
-using MyPrograms.Members;
+//using MyPrograms.Members;
 using PasswordHash;
 
-namespace CalendarTracking
+namespace MyPrograms
 {
     public partial class Register : System.Web.UI.Page
     {
