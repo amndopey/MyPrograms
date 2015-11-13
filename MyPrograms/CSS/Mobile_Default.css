@@ -1,0 +1,72 @@
+﻿/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    body{
+    -webkit-text-size-adjust:none;
+    font-family:Helvetica, Arial, Verdana, sans-serif;
+    padding:5px;
+    background-image:url('/Images/Mobile_Default.jpg');
+    background-repeat: no-repeat;     
+    background-position: left top;
+    background-attachment:fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: 100% 100%;
+    }
+    div{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+    }
+    #nav,#nav li{
+        float:none!important;
+        clear:both!important;
+        margin:0 0 20px 0!important;
+        display:block;
+        padding:0;
+        text-align:left!important;
+        width:100%;
+    }
+    #nav{
+        border:1px solid #ccc;
+        padding:5px;
+        border-radius:5px;
+    }
+    #nav li{
+        margin:0!important;
+    }
+    #nav li a{
+        display:block;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+
+
+

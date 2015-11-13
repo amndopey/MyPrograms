@@ -1,0 +1,64 @@
+﻿body
+{
+    background-color:#242424;
+}
+#input_fields
+{
+    border: 1px solid white;
+    color:white;
+    position:relative;
+    top:50px;
+    left:51px;
+    height: 117px;
+    width: 324px;
+    }
+#buttons
+{
+    position:relative;
+    top:201px;
+    left:330px;
+    width: 54px;
+}
+#form1
+{
+    height: 449px;
+}
+#status
+{
+    position:relative;
+    top: 66px;
+    left: 53px;
+    width: 331px;
+    color:red;
+    font-weight:bold;
+}
+#Register
+{
+    position:relative;
+    top: 0px;
+    left: 125px;
+    width: 182px;
+    height: 19px;
+}
+#register
+{
+    width: 81px;
+}
+#Login_Button
+{
+    position:relative;
+    top: 21px;
+    left: 29px;
+    width: 70px;
+}
+#Login_Label
+{
+    position:relative;
+    top: 36px;
+    left: 54px;
+    width: 311px;
+    height: 48px;
+    color:white;
+    font-size:40pt;
+    text-align:center;
+}

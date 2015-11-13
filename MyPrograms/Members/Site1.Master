@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.Master.cs" Inherits="MyPrograms.Members.Site1" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="/CSS/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id="headerDIV">
+            <h1><asp:ContentPlaceHolder runat="server" ID="HeaderText"></asp:ContentPlaceHolder></h1>
+        </div>
+        <%--<div id="nav">--%>
+        <asp:Panel ID="nav" runat="server">
+            <%--<div id="navLabel" runat="server">--%>
+            <asp:Panel ID="navLabel" runat="server">
+                <asp:Label ID="Label2" runat="server" Text="Tools"></asp:Label>
+                <asp:Panel ID="Table1" runat="server">
+                    <asp:Button ID="Button1" runat="server" Text="Calendar App" Width="150px" PostBackUrl="~/Members/OurCalendarApp.aspx" />
+                    <asp:PlaceHolder runat="server" ID="Admin_Placeholder"></asp:PlaceHolder>
+                </asp:Panel>
+            </asp:Panel>
+            <%--</div>--%>
+            <asp:Panel id="loggedin" runat="server">
+                <asp:Label ID="Label1" runat="server" Text="Logged in as:"></asp:Label>
+                <asp:LoginName ID="LoginName1" runat="server" />
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </asp:Panel>
+        <%--</div>--%>
+        </asp:Panel>
+        <div id="MainPage">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

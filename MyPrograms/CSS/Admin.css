@@ -1,0 +1,51 @@
+﻿body
+{
+    background-color: #999999;
+}
+#MainTables
+{
+    color:white;
+    background-color:#242424;
+    width:57%;
+    top: 41px;
+    left: 16px;
+    text-align:center;
+    position:relative;
+}
+#Dropdown
+{
+    border: 1px solid white;
+    position:relative;
+    color:white;
+    top: 15px;
+    left: 9px;
+    text-align:center;
+    font-size:24px;
+    text-decoration:underline;
+    padding-bottom:8px;
+    width: 170px;
+}
+#myGrid
+{
+    position:relative;
+    top: 69px;
+    left: 13px;
+    height: 465px;
+    width: 479px;
+}
+#fetchDiv
+{
+    position:relative;
+    top: -16px;
+    left: 195px;
+    height: 25px;
+    width: 71px;
+}
+#myDetails
+{
+    position:relative;
+    top: -393px;
+    left: 507px;
+    height: 168px;
+    width: 412px;
+}
