@@ -15,6 +15,7 @@ build/
 bld/
 [Bb]in/
 [Oo]bj/
+[Ww]eb.config
 
 # Roslyn cache directories
 *.ide/
